@@ -1,0 +1,38 @@
+.navigation-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 20px;
+background-color:  #272727;
+}
+
+
+.nav {
+    background-color: rgb(51, 54, 56);
+    border-radius:6px;
+    padding: 10px;
+cursor: pointer;
+    position: relative;
+    color: rgb(105, 155, 255); 
+  font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    color: greenyellow;
+    background-color: rgb(216, 41, 207);
+  
+    bottom: -5px; 
+    width: 0;
+    height: 6px; 
+    transition: width 2s ease;
+    border-radius: 5px;
+  }
+  .nav:hover::after {
+    width: 100%;
+    
+  }
+  

@@ -1,0 +1,53 @@
+.n{
+background: url('../../public/backgroundimg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: center;
+background-color: red;
+}
+.intro-text{
+    color: rgb(105, 155, 255); 
+    background-color: rgb(61, 65, 81);
+    border: 2px solid  rgb(51, 54, 56);
+    padding: 55px;
+    border-radius: 8px;
+    opacity: 0.8;
+
+}
+span{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+
+}
+.pro{
+    background-image: url('../../public/mine.jpeg');
+    animation: rotate 3s linear ;
+width: 300px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 300px;
+border-radius: 50%;
+background-position: center;
+}
+
+.home-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.intro{
+    width: 500px;
+   
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
